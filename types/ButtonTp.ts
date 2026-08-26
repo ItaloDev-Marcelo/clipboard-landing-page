@@ -1,0 +1,1 @@
+export type ButtonTp = {style: string, title: string}
