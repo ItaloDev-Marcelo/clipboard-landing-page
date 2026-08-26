@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 export const Hero = () => {
   return (
-    <section className='bg-[url(/bg-header-mobile.png)] bg-top bg-cover h-auto lg:h-[50dvh] md:bg-[url(/bg-header-desktop.png)] flex flex-col items-center pb-6 justify-center p-1.5 text-center mb-15 xl:mb-20 2xl:mb-15'>
+    <section className='bg-[url(/bg-header-mobile.png)] bg-top bg-cover w-full h-auto lg:h-[50dvh] md:bg-[url(/bg-header-desktop.png)] flex flex-col items-center pb-6 justify-center p-1.5 text-center mb-15 xl:mb-20 2xl:mb-15'>
         <div className='my-10 xl:mt-30'><Image src={Logo} className='w-10 xl:w-20 2xl:30' alt='logo' /></div>
         <div>
        <div className='my-5'>
