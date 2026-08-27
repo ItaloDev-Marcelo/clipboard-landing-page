@@ -29,7 +29,7 @@ export const KeepTrack = () => {
   devices. Our Mac and iOS apps will help you organize everything.</p>
         <section className="flex flex-col items-center my-10 justify-center xl:flex-row xl:justify-between relative xl:-left-30 2xl:-left-35">
            <div className="py-10">
-              <Image src={ImageComputer}  className="w-full xl:w-175 h-auto"  alt='computer-image' />
+              <Image src={ImageComputer}  className="w-full xl:w-75 2xl:w-175 h-auto"  alt='computer-image' />
            </div>
            <div className="xl:ml-20">
               {
