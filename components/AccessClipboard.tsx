@@ -11,7 +11,7 @@ export const AccessClipboard = () => {
        </div>
 
        <div className='my-7 p-5 xl:p-0'>
-         <Image src={ImageDevices} className='w-full xl:w-max-200 ' alt='devices image'/>
+         <Image src={ImageDevices} className='w-full xl:w-max-180 ' alt='devices image'/>
        </div>
 
     </section>
