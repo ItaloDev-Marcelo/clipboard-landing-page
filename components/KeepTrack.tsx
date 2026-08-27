@@ -22,14 +22,14 @@ export const KeepTrack = () => {
   ]
 
   return (
-    <section className="flex flex-col items-center justify-center text-center p-10 my-15 xl:my-8 2xl:my-10 bg-green-700">
-        <h2 className="text-[2em] xl:text-[2.7em] text-gray-title text my-10 font-semibold">Keep track of your snippets</h2>
-        <p className='text-gray-p text-[18px] tracking-wide mb-7 text-center xl:w-180 '>Clipboard instantly stores any item you copy in the cloud, 
+    <section className="flex flex-col items-center justify-center text-center p-10 my-15 xl:my-8 2xl:my-10">
+        <h2 className="text-[2em] xl:text-[2.5em] 2xl:text-[2.7em] text-gray-title text my-10 font-semibold">Keep track of your snippets</h2>
+        <p className='text-gray-p text-[18px] xl:text-[15px] 2xl:text-[18px] tracking-wide mb-7 text-center xl:w-180 '>Clipboard instantly stores any item you copy in the cloud, 
   meaning you can access your snippets immediately on all <br className='xl:hidden' /> your 
   devices. Our Mac and iOS apps will help you organize everything.</p>
-        <section className="flex flex-col items-center my-10 justify-center xl:flex-row xl:justify-between relative xl:-left-75 2xl:-left-35">
+        <section className="flex flex-col items-center my-10 justify-center xl:flex-row xl:justify-between relative xl:-left-30 2xl:-left-35">
            <div className="py-10">
-              <Image src={ImageComputer}  className="w-full max-w-175 h-auto"  alt='computer-image' />
+              <Image src={ImageComputer}  className="w-full xl:w-175 h-auto"  alt='computer-image' />
            </div>
            <div className="xl:ml-20">
               {
