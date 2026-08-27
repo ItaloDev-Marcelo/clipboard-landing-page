@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata,  Viewport} from "next";
 import { Bai_Jamjuree } from "next/font/google";
 import "./globals.css";
 
@@ -8,6 +8,11 @@ const baiJamjuree = Bai_Jamjuree({
   subsets: ["latin"],
   weight: ["400", "600"],
 });
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+};
 
 
 export const metadata: Metadata = {
