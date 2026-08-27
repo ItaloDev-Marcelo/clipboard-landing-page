@@ -3,7 +3,7 @@ import { ImageDevices } from './util/Imagens'
 
 export const AccessClipboard = () => {
   return (
-    <section className='flex flex-col items-center text-center content-center'>
+    <section className='flex flex-col items-center text-center content-center bg-yellow-500'>
        <div className='p-5'> 
         <h2 className='text-[2em] xl:text-[2.7em] text-gray-title text my-5 font-semibold'>Access Clipboard anywhere</h2>
         <p className='text-gray-p text-[18px] tracking-wide px-5 mb-7 xl:w-190 '>Whether you’re on the go, or at your computer, you can access all your Clipboard 

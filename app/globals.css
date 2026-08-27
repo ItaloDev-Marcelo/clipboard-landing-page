@@ -23,6 +23,10 @@ p {
   --breakpoint-2xl: 90rem;
 }
 
+body {
+  background-color: blue;
+}
+
 
 
 @media(min-width:1280px){

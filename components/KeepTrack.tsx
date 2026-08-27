@@ -22,7 +22,7 @@ export const KeepTrack = () => {
   ]
 
   return (
-    <section className="flex flex-col items-center justify-center text-center p-10 my-15 xl:my-8 2xl:my-10">
+    <section className="flex flex-col items-center justify-center text-center p-10 my-15 xl:my-8 2xl:my-10 bg-green-700">
         <h2 className="text-[2em] xl:text-[2.7em] text-gray-title text my-10 font-semibold">Keep track of your snippets</h2>
         <p className='text-gray-p text-[18px] tracking-wide mb-7 text-center xl:w-180 '>Clipboard instantly stores any item you copy in the cloud, 
   meaning you can access your snippets immediately on all <br className='xl:hidden' /> your 
