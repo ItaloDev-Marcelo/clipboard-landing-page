@@ -1,5 +1,14 @@
 import type { Metadata } from "next";
+import { Bai_Jamjuree } from "next/font/google";
 import "./globals.css";
+
+
+
+const baiJamjuree = Bai_Jamjuree({
+  subsets: ["latin"],
+  weight: ["400", "600"],
+});
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -10,7 +19,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
-      className={`h-full antialiased`}
+      className={`${baiJamjuree.className} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
