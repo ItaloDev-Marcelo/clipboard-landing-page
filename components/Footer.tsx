@@ -12,20 +12,20 @@ export const Footer = () => {
        <Image src={Logo} alt='Logo' className="w-14 xl:w-20 2xl:w-15" />
        <ul className=" w-165 h-30  xl:pt-5 xl:justify-between flex flex-col  items-center justify-center xl:flex-row gap-7 xl:flex-wrap text-center xl:items-baseline xl:text-left">
                 <div>
-                <li className='text-[18px] xl:text-2xl  mb-5 xl:mb-4 text-gray-title hover:text-green-btn'><a href='#'>{FooterList[0]} </a></li>
+                <li className='text-[18px] 2xl:text-2xl  mb-5 xl:mb-4 text-gray-title hover:text-green-btn'><a href='#'>{FooterList[0]} </a></li>
                 <li className='text-[18px] xl:text-2xl text-gray-title hover:text-green-btn'><a href='#'>{FooterList[1]} </a></li>
                 </div>
                 <div>
-                <li className='text-[18px] xl:text-2xl  mb-5 xl:mb-4 text-gray-title hover:text-green-btn'><a href='#'>{FooterList[2]} </a></li>
-                <li className='text-[18px] xl:text-2xl text-gray-title hover:text-green-btn'><a href='#'>{FooterList[3]} </a></li>
+                <li className='text-[18px] 2xl:text-2xl  mb-5 xl:mb-4 text-gray-title hover:text-green-btn'><a href='#'>{FooterList[2]} </a></li>
+                <li className='text-[18px] 2xl:text-2xl text-gray-title hover:text-green-btn'><a href='#'>{FooterList[3]} </a></li>
                 </div>
-                <li className='text-[18px] xl:text-2xl text-gray-title hover:text-green-btn'><a href='#'>{FooterList[4]} </a></li>
+                <li className='text-[18px] 2xl:text-2xl text-gray-title hover:text-green-btn'><a href='#'>{FooterList[4]} </a></li>
        </ul>
 
        <ul className="flex flex-row  justify-center items-center gap-x-2 mt-2 xl:mt-0">
-         <li className="text-gray-title hover:text-green-btn cursor-pointer"><IoLogoFacebook  size={35} /></li>
-         <li className="text-gray-title hover:text-green-btn cursor-pointer"><FaTwitter size={35} /></li>
-         <li className="text-gray-title hover:text-green-btn cursor-pointer"><FaInstagram  size={35}/></li>
+         <li className="text-gray-title hover:text-green-btn cursor-pointer"><IoLogoFacebook  className="w-35 xl:w-20 2xl:w-30" /></li>
+         <li className="text-gray-title hover:text-green-btn cursor-pointer"><FaTwitter className="w-35 xl:w-20 2xl:w-30" /></li>
+         <li className="text-gray-title hover:text-green-btn cursor-pointer"><FaInstagram  className="w-35 xl:w-20 2xl:w-30"/></li>
        </ul>
     </footer>
   )
