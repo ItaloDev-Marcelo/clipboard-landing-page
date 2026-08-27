@@ -24,8 +24,7 @@ p {
 }
 
 body {
-  background-color: blue;
-  width:100%;
+  width:100dvw;
   overflow-x: hidden;
 }
 
