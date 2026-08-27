@@ -13,6 +13,12 @@ p {
   font-weight: 400;
 }
 
+
+body {
+  width:100%;
+  overflow-x: hidden;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-green-btn : var(--greenbtn);
@@ -22,12 +28,6 @@ p {
   --color-foreground: var(--foreground);
   --breakpoint-2xl: 90rem;
 }
-
-body {
-  width:100dvw;
-  overflow-x: hidden;
-}
-
 
 
 @media(min-width:1280px){
