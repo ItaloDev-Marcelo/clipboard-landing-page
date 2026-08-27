@@ -22,10 +22,11 @@ export const Footer = () => {
                 <li className='text-[18px] 2xl:text-2xl text-gray-title hover:text-green-btn'><a href='#'>{FooterList[4]} </a></li>
        </ul>
 
-       <ul className="flex flex-row  justify-center items-center gap-x-2 mt-2 xl:mt-0">
-         <li className="text-gray-title hover:text-green-btn cursor-pointer"><IoLogoFacebook  className="w-35 xl:w-20 2xl:w-30" /></li>
-         <li className="text-gray-title hover:text-green-btn cursor-pointer"><FaTwitter className="w-35 xl:w-20 2xl:w-30" /></li>
-         <li className="text-gray-title hover:text-green-btn cursor-pointer"><FaInstagram  className="w-35 xl:w-20 2xl:w-30"/></li>
+       <ul className="flex flex-row  justify-center bg-red-500 items-center
+        gap-x-2  mt-2 xl:mt-0">
+         <li className="text-gray-title hover:text-green-btn cursor-pointer"><IoLogoFacebook  size={25} /></li>
+         <li className="text-gray-title hover:text-green-btn cursor-pointer"><FaTwitter size={25} /></li>
+         <li className="text-gray-title hover:text-green-btn cursor-pointer"><FaInstagram  size={25}/></li>
        </ul>
     </footer>
   )
